@@ -1,0 +1,224 @@
+<!-- -- Task 1 -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Car Information</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #007bff;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  input[type="number"] {
+    padding: 8px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>Car Information</h1>
+    <div id="carInfo"></div>
+    <label for="distance">Enter distance (in km):</label>
+    <input type="number" id="distance">
+    <button onclick="calculateTime()">Calculate Time</button>
+  </div>
+
+  <script src="HW.js"></script>
+</body>
+</html> -->
+
+
+<!-- -- Task 2 -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fraction Operations</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #007bff;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  input[type="number"] {
+    padding: 8px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+  #result {
+    margin-top: 20px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>Fraction Operations</h1>
+    <label for="numerator1">Enter numerator 1:</label>
+    <input type="number" id="numerator1">
+    <label for="denominator1">Enter denominator 1:</label>
+    <input type="number" id="denominator1">
+    <br>
+    <label for="numerator2">Enter numerator 2:</label>
+    <input type="number" id="numerator2">
+    <label for="denominator2">Enter denominator 2:</label>
+    <input type="number" id="denominator2">
+    <br>
+    <button onclick="addFractions()">Add</button>
+    <button onclick="subtractFractions()">Subtract</button>
+    <button onclick="multiplyFractions()">Multiply</button>
+    <button onclick="divideFractions()">Divide</button>
+    <button onclick="reduceFraction()">Reduce Fraction 1</button>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="HW.js"></script>
+</body>
+</html> -->
+
+
+<!-- -- Task 3 -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Time Operations</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+  #currentTime {
+    margin-top: 20px;
+    font-size: 24px;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>Time Operations</h1>
+    <button onclick="displayTime()">Display Time</button>
+    <button onclick="addSeconds()">Add Seconds</button>
+    <button onclick="addMinutes()">Add Minutes</button>
+    <button onclick="addHours()">Add Hours</button>
+    <div id="currentTime"></div>
+  </div>
+
+  <script src="HW.js"></script>
+</body>
+</html> -->
